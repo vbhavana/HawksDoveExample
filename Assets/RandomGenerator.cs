@@ -33,7 +33,6 @@ public class RandomGenerator : MonoBehaviour
         z_axis = UnityEngine.Random.Range(minimum.z, maximum.z);
         random_pos = new Vector3(x_axis, y_axis, z_axis);
     }
-    // Update is called once per frame
     void Update()
     {
 
