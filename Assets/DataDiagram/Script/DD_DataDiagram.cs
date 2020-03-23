@@ -63,9 +63,7 @@ public class DD_CalcRectTransformHelper {
         return anchor2 - anchor0 + sizeDelta;
     }
 
-    /// <summary>
-    /// </summary>
-    /// <returns></returns>
+    
     public static Rect CalcLocalRect(Vector2 anchorMin, Vector2 anchorMax, Vector2 parentSize, 
         Vector2 pivot, Vector2 anchorPosition, Rect rectInRT) {
 
