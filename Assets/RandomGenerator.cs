@@ -15,7 +15,6 @@ public class RandomGenerator : MonoBehaviour
     private Vector3 random_pos;
     public bool c_Instantiate;
 
-    // Start is called before the first frame update
     void Start()
     {
         SetRange();
@@ -46,9 +45,6 @@ public class RandomGenerator : MonoBehaviour
         Instantiate(Hawk, random_pos, Quaternion.identity);
         GenerateRandom();
         Instantiate(Food, random_pos, Quaternion.identity);
-       // if (c_Instantiate)
-       // {
-            //Instantiate(gameObject, random_pos, Quaternion.identity);
-       // }
+       
     }
 }
